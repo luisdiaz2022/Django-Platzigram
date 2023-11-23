@@ -177,7 +177,7 @@ img {
 }
 
 .gallery-item-type {
-    position: absolute;
+    position: static;
     top: 1rem;
     right: 1rem;
     font-size: 2.5rem;
