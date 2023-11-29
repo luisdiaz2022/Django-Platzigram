@@ -14,6 +14,11 @@ from django.db.utils import IntegrityError
 
 # Create your views here.
 
+@login_required
+def update_profile(request):
+    """Update an user's profile view."""
+    return render(request, 'users/update_profile.html')
+
 def login_view(request):
     """Login view"""
     if request.method == 'POST':
