@@ -3,20 +3,12 @@
 # Django
 
 from django.urls import path
-from django.views.generic import TemplateView
 
 # Views
 
 from users import views
 
 urlpatterns = [
-
-    # Posts
-    path(
-        route='profile/<str:username>/',
-        view=TemplateView.as_view(template_name='users/detail.html'),
-        name='detail'
-    ),
 
     # Management
     path(
@@ -40,6 +32,13 @@ urlpatterns = [
     path(
         route='users/me/profile/',
         view=views.update_profile,
-        name='update_profile'
+        name='update'
+    ),
+
+    # Posts
+    path(
+        route='users/<str:username>/',
+        view=views.UserDetailView.as_view(),
+        name='detail'
     ),
 ]
