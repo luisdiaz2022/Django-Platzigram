@@ -32,6 +32,14 @@ class PostDetailView(LoginRequiredMixin, DetailView):
     template_name = 'posts/detail.html'
     queryset = Post.objects.all()
     context_object_name = 'post'
+    slug_field = 'pk'
+    slug_url_kwarg = 'id'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        post = self.get_object()
+        context['post'] = Post.objects.get(pk=post.pk)
+        return context
 
 class CreatePostView(LoginRequiredMixin, CreateView):
     """Create a new post."""
