@@ -2,7 +2,7 @@
 
 This README provides comprehensive instructions for setting up and understanding my Django-Platzigram. This was created with a basic Django Course that helped me understand the basic concepts of this Python Framework.
 
-### Description
+- ### Description
 Instagram-based app created by Platzi using Python.
 
 #### Features
