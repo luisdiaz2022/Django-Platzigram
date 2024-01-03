@@ -22,9 +22,43 @@ Instagram-based app created by Platzi using Python.
 
 #### Folders Structure
 
+Platzigram/
+├── media/                # overview of the project
+├── static/               # have all the binaries and CSS 
+├── templates/            # results of the analysis (data, tables, figures)
+├── platzigram/           # data files used in the project
+│   ├── settings.py       # settings for the core app
+│   └── middleware.py     # handles specific interactions with the app
+│   └── ...
+├── posts/                # folder with all the posts related components
+│   ├── views.py          # contains all the views from the posts
+│   ├── models.py         # contains all the models from the posts
+│   └── ...
+├── users/                # folder with all the users related components
+│   ├── views.py          # contains all the views from the user
+│   ├── models.py         # contains all the models from the user
+│   └── ...
+├── README.md             # overview of the project
+├── requirements.txt      # software requirements and dependencies
+├── manage.py             # handles administrative tasks for Django Framework
+
 - ## Installation
 
+First, clone the repository following the steps provided by GitHub
+
+Second, we install a virtual environment
+python -m venv venv
+
+Initialize the virtual environment:
+.\venv\Scripts\activate
+
+Finally, to install all the required packages, we need to type in the console:
+
+pip install -r requirements.txt
+
 - ## Execute App
+
+Type python manage.py runserver to initialize the app.
 
 - ## App's Screemshots 
 
