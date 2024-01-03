@@ -47,14 +47,14 @@ Platzigram/
 First, clone the repository following the steps provided by GitHub
 
 Second, we install a virtual environment
-python -m venv venv
+``` python -m venv venv ```
 
 Initialize the virtual environment:
-.\venv\Scripts\activate
+``` .\venv\Scripts\activate ```
 
 Finally, to install all the required packages, we need to type in the console:
 
-pip install -r requirements.txt
+``` pip install -r requirements.txt ```
 
 - ## Execute App
 
