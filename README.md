@@ -25,8 +25,8 @@ Instagram-based app created by Platzi using Python.
 ```bash
 
 Platzigram/
-├── media/                # overview of the project
-├── static/               # have all the binaries and CSS 
+├── media/                # includes binaries from users
+├── static/               # have the binaries from the app and CSS 
 ├── templates/            # results of the analysis (data, tables, figures)
 ├── platzigram/           # data files used in the project
 │   ├── settings.py       # settings for the core app
