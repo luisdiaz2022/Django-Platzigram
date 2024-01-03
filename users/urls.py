@@ -13,13 +13,13 @@ urlpatterns = [
     # Management
     path(
         route='users/login/',
-        view=views.login_view,
+        view=views.LoginView.as_view(),
         name='login'
     ),
 
     path(
         route='users/logout/',
-        view=views.logout_view,
+        view=views.Logoutview.as_view(),
         name='logout'
     ),
 
