@@ -22,6 +22,8 @@ Instagram-based app created by Platzi using Python.
 
 #### Folders Structure
 
+```bash
+
 Platzigram/
 ├── media/                # overview of the project
 ├── static/               # have all the binaries and CSS 
@@ -41,6 +43,8 @@ Platzigram/
 ├── README.md             # overview of the project
 ├── requirements.txt      # software requirements and dependencies
 ├── manage.py             # handles administrative tasks for Django Framework
+
+```
 
 - ## Installation
 
