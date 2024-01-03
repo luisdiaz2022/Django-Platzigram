@@ -64,7 +64,7 @@ Finally, to install all the required packages, we need to type in the console:
 
 Type ``` python manage.py runserver ``` to initialize the app.
 
-- ## App's Screemshots 
+- ## App's Screenshots 
 
 - ### Login View
 
