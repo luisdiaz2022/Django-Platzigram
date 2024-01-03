@@ -19,7 +19,7 @@ urlpatterns = [
 
     path(
         route='users/logout/',
-        view=views.logout_view,
+        view=views.Logoutview.as_view(),
         name='logout'
     ),
 
